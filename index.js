@@ -2,15 +2,6 @@ let homeTeamScore = document.getElementById("home-team-score")
 
 let awayTeamScore = document.getElementById("away-team-score")
 
-let quarterOne = document.getElementById("quarter-one")
-
-let quarterTwo = document.getElementById("quarter-two")
-
-let quarterThree = document.getElementById("quarter-three")
-
-let quarterFour = document.getElementById("quarter-four")
-
-let quarter = document.getElementById("quarter")
 
 
 
