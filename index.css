@@ -121,7 +121,7 @@ p {
 button:hover {
     background-color: black;
     color: green;
-    transition:05.s;
+    transition:0.5s;
 }
 
 .button-container {
