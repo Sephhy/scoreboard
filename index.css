@@ -1,0 +1,154 @@
+
+
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background-color: rgb(140, 189, 136);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 30px;
+    font-family:Ubuntu, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    border:3px solid black;
+    padding-bottom:10px;
+    background-color: #EEE4B1;
+    border-radius: 20px;
+    width: 90%;
+    max-width:500px;
+    height: 170px;
+}
+
+p {
+    font-family:'cursed_timer_ulilregular';
+}
+
+.quarter-container {
+    /* border:2px solid black; */
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    /* color: lightyellow; */
+}
+
+.change-quarter-container {
+    display: flex;
+    margin-bottom: 5px;
+    gap: 1em;
+    
+    
+}
+
+#quarter {
+    width: 40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    padding-left: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: #E72929;
+    font-size: 25px;
+}
+.change-quarter{
+    background-color: #EEE4B1;
+    border:1.7px solid black;
+}
+
+#new-game {
+    width:100px;
+    background-color: #EEE4B1;
+    border:1.7px solid black
+    
+}
+
+#new-game:hover {
+    background-color: black;
+}
+
+#new-quarter:hover {
+    background-color: black;
+}
+
+
+
+.team-container {
+    /* border:2px solid black; */
+    width: 200px;
+    height:175px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.team-score-container {
+     width: 110px;
+    height:62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: black;
+    color: #E72929;
+    padding-top: 10px;
+    margin-top: 1px;
+    /* border:1px solid black; */
+}
+
+.plus {
+    max-width: 35px;
+    height:35px;
+    max-height:35px;
+    margin-right: 4px;
+    background-color: #EEE4B1;
+    border:1.7px solid black;
+}
+
+button:hover {
+    background-color: black;
+    color: green;
+    transition:05.s;
+}
+
+.button-container {
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 0 10px 10px 15px;
+    margin-bottom: 500px;
+    
+}
+
+.team-name {
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+
+.score-container {
+    /* border:1px solid black; */
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
